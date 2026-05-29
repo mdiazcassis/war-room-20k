@@ -1,0 +1,136 @@
+/* =======================================================
+WAR ROOM 20K — MAIN STYLE
+======================================================= */
+
+:root {
+
+    --bg: #07111F;
+    --panel: #0B1728;
+    --panel-2: #102033;
+
+    --text: #F5F5F5;
+    --text-soft: #B0BEC5;
+
+    --blue: #1976D2;
+    --orange: #EF6C00;
+    --yellow: #FBC02D;
+    --gray: #546E7A;
+
+    --border: rgba(255,255,255,0.06);
+}
+
+/* BACKGROUND */
+
+.stApp {
+    background: linear-gradient(
+        180deg,
+        #07111F 0%,
+        #081A2E 100%
+    );
+    color: var(--text);
+}
+
+/* REMOVE STREAMLIT PADDING */
+
+.block-container {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 100%;
+}
+
+/* TYPOGRAPHY */
+
+h1, h2, h3, h4 {
+    color: var(--text);
+    font-weight: 800;
+}
+
+/* PANELS */
+
+.wr-panel {
+
+    background: linear-gradient(
+        180deg,
+        #0B1728 0%,
+        #0D2038 100%
+    );
+
+    border-radius: 18px;
+
+    border: 1px solid var(--border);
+
+    padding: 18px;
+
+    box-shadow:
+        0 8px 30px rgba(0,0,0,0.35);
+}
+
+/* TITLES */
+
+.wr-title {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.wr-subtitle {
+    color: var(--text-soft);
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+/* KPI */
+
+.kpi-number {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.kpi-label {
+    color: var(--text-soft);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* TYPOLOGIES */
+
+.badge-bastion {
+    background: rgba(25,118,210,0.25);
+    color: #7EB6FF;
+
+    padding: 8px 14px;
+    border-radius: 12px;
+
+    font-weight: 800;
+}
+
+.badge-reserva {
+    background: rgba(239,108,0,0.20);
+    color: #FFB366;
+
+    padding: 8px 14px;
+    border-radius: 12px;
+
+    font-weight: 800;
+}
+
+.badge-enclave {
+    background: rgba(251,192,45,0.18);
+    color: #FFE082;
+
+    padding: 8px 14px;
+    border-radius: 12px;
+
+    font-weight: 800;
+}
+
+.badge-vacio {
+    background: rgba(84,110,122,0.25);
+    color: #CFD8DC;
+
+    padding: 8px 14px;
+    border-radius: 12px;
+
+    font-weight: 800;
+}
